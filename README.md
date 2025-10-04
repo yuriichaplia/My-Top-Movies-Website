@@ -14,3 +14,5 @@ A Flask-based web application that lets you manage your personal movie collectio
 + Database: SQLite
 + API: TMDB API
 + Frontend: HTML (Jinja templates) + Bootstrap
+
+#### To get started you need to create .env file with your TMDB API access token and api key.
