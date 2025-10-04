@@ -1,9 +1,16 @@
-# My Top Movies Website
-A web application made using Flask, SQLAlchemy and APIs that allows users to create a collection of their favorite movies with ratings and reviews. 
+# 🎬 Movie Collection App
 
-## How to get started? 
-+ First you need to obtain API Key and ACCESS Token from [TheMovieDB](https://developer.themoviedb.org/)
-+ Then, create .env file with those two variables
-+ Open website, click add movie, fill the movie name and choose which one is yours from the list of movies.
-+ Add your rating and review
+A Flask-based web application that lets you manage your personal movie collection. You can add movies via The Movie Database (TMDB) API, update ratings and reviews, delete entries, and view your ranked list of movies.
 
+## 🚀 Features
++ Add movies by searching TMDB API
++ Edit movie ratings and reviews
++ Delete movies from your collection
++ Automatically ranks movies by rating
++ Simple, clean UI with Flask-Bootstrap
+
+## 🛠️ Tech Stack
++ Backend: Flask, Flask-WTF, Flask-Bootstrap, SQLAlchemy
++ Database: SQLite
++ API: TMDB API
++ Frontend: HTML (Jinja templates) + Bootstrap
